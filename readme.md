@@ -1,6 +1,13 @@
 # -----------IMPORTANT-----------
+## for docker engine run this on powershell:
+
+```
+docker compose up -d
+```
+
 ## If you dont have windows subsystem for linux
 ## run on bash celery:
+
 ```
 celery -A tasks worker -l info --pool=solo
 ```
